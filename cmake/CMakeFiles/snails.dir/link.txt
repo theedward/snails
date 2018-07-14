@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/snails.dir/Users/joao.seixas/Repositories/snails/src/MediaLoader.cpp.o CMakeFiles/snails.dir/Users/joao.seixas/Repositories/snails/src/Snails.cpp.o  -o snails -Wl,-rpath,/Library/Frameworks -framework SDL2 -framework Cocoa 

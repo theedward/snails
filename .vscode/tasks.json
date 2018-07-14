@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "sh",
+    "isShellCommand": true,
+    "args": ["-c"],
+    "showOutput": "always",
+    "echoCommand": true,
+    "tasks": [
+        {
+            "taskName": "build",
+            "suppressTaskName": true,
+            "isBuildCommand": true,
+            "args": [
+                "cd buildScripts && sh build.sh && cd .."
+            ]
+        },
+        {
+            "taskName": "run",
+            "suppressTaskName": true,
+            "args": [
+                "cd cmake && ./snails && cd .."
+            ]
+        }
+    ]
+}

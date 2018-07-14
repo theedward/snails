@@ -1,0 +1,3 @@
+/Users/joao.seixas/Repositories/snails/cmake/CMakeFiles/rebuild_cache.dir
+/Users/joao.seixas/Repositories/snails/cmake/CMakeFiles/edit_cache.dir
+/Users/joao.seixas/Repositories/snails/cmake/CMakeFiles/snails.dir
